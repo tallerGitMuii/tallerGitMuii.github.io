@@ -48,7 +48,8 @@ Encargado de generar los textos a ir añadiendo en ambos lanzamientos
 
 ## Gitflow
 Usando el language de Markup, podemos dibujar diagramas  UML con [Mermaid](https://mermaidjs.github.io/). 
-```mermaid
+```mermaid 
+
 sequenceDiagram
 Feature Branch A -->> Develop: PR
 Feature Branch B -->> Develop: PR
@@ -59,6 +60,7 @@ Release ->> Release: Commit
 Note left of Release: Candidate ready
 Release ->> Master: PR
 Note right of Master: v1.0
+
 ```
 ## Agradecimientos
 * Victor Pérez Piqueras https://github.com/victorperezpiqueras
