@@ -17,13 +17,24 @@ El repositorio actual debe ser utilizando como código base sobre el cual simula
 ## Equipos
 ### SEO
 Encargado de añadir las metas en el primer lanzamiento y ayudar al equipo de contenidos para la página SEO del segundo lanzamiento
+ ![HTML](https://img.shields.io/static/v1?label=HTML&message=20%&color=yellow)
+ ![SEO](https://img.shields.io/static/v1?label=SEO&message=80%&color=blue)
+ ![MULTIMEDIA](https://img.shields.io/static/v1?label=Multimedia&message=0%&color=red)
 ### MULTIMEDIA
 Encargado de descargar y añadir al repositorio las imágenes a usar 
+ ![HTML](https://img.shields.io/static/v1?label=HTML&message=10%&color=yellow)
+ ![SEO](https://img.shields.io/static/v1?label=SEO&message=0%&color=red)
+ ![MULTIMEDIA](https://img.shields.io/static/v1?label=Multimedia&message=90%&color=blue)
 ### FRONT
 Encargado de añadir los elementos HTML a los ficheros para lograr los obtenidos establecidos
+ ![HTML](https://img.shields.io/static/v1?label=HTML&message=90%&color=blue)
+ ![SEO](https://img.shields.io/static/v1?label=SEO&message=10%&color=yellow)
+ ![MULTIMEDIA](https://img.shields.io/static/v1?label=Multimedia&message=0%&color=red)
 ### CONTENIDOS
 Encargado de generar los textos a ir añadiendo en ambos lanzamientos
-
+ ![HTML](https://img.shields.io/static/v1?label=HTML&message=60%&color=blue)
+ ![SEO](https://img.shields.io/static/v1?label=SEO&message=40%&color=green)
+ ![MULTIMEDIA](https://img.shields.io/static/v1?label=Multimedia&message=0%&color=red)
 ## Lanzamientos
 ### v1.0
 * Adaptar el contenido de la plantilla a los contenidos del taller
@@ -46,21 +57,5 @@ Encargado de generar los textos a ir añadiendo en ambos lanzamientos
 	* seo.html
 		* Añade una web basada en generic.html con contenido relacionado con estrategias de SEO para mejorar el posicionamiento de la web, incluyendo una lista tipo check que indique las usadas en la web
 
-## Gitflow
-Usando el language de Markup, podemos dibujar diagramas  UML con [Mermaid](https://mermaidjs.github.io/). 
-```mermaid 
-
-sequenceDiagram
-Feature Branch A -->> Develop: PR
-Feature Branch B -->> Develop: PR
-Feature Branch C -->> Develop: PR
-Note left of Develop: Candidate initialized
-Develop ->> Release: PR
-Release ->> Release: Commit
-Note left of Release: Candidate ready
-Release ->> Master: PR
-Note right of Master: v1.0
-
-```
 ## Agradecimientos
 * Victor Pérez Piqueras https://github.com/victorperezpiqueras
